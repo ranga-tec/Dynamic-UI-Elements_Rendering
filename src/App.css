@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ecf0f1;
+  min-height: 100vh;
+}
+
+.task-list {
+  margin-top: 2rem;
+}
+
+/* Toast notifications customization */
+.Toastify__toast {
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Toastify__toast--success {
+  background-color: #2ecc71;
+}
+
+.Toastify__toast--error {
+  background-color: #e74c3c;
+}
+
+/* Drag and drop styling */
+.dragging {
+  opacity: 0.5;
+}
+
+.drag-over {
+  border: 2px dashed #3498db;
+}
